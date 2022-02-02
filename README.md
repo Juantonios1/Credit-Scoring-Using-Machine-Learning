@@ -72,7 +72,7 @@ At this stage, a brief analysis of the data will be carried out, as follows:
 At this stage, data preparation and processing will be carried out before being used as a data model, as follows:
 * Inconsistent Variable
 * Filling Missing Value
-* Export Preprocessing Dataset : 
+* Export Preprocessing Dataset : <a href="https://github.com/Juantonios1/Loan-Repayment-Analysis/blob/main/Preprocessing%20Loan%20Repayment%20Dataset.csv">Preprocess Dataset</a>.   
 * Transformer
 * Splitting Data
 * Get Features Names
@@ -86,21 +86,29 @@ At this stage, another information analysis will be carried out, as follows:
 * Loan Intent & Status Information
 
 ## Model Selection
-At this stage will be done making and optimizing the machine learning model (KNN, Decision Tree, Logistic Regression), as follows:
-* Model Benchmark
-* Imbalance Method
-* Hyperparameter Tuning
+At this stage will be done making and optimizing the machine learning model, as follows:
+* Model Benchmark (KNN, Decision Tree, Logistic Regression)
+* Imbalance Method : Undersampling
+* Hyperparameter Tuning : Grid Search
 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP <br>
-![shap](shap.jpg)
+![shap](shap.png)
+<br>`loan_percent_income`,`person_income`,`loan_grade`,`loan_int_rate`,`loan_amount`,`person_emp_length` are most influence factor to customer repay or not.
 
 ## Conclusion 
 We conclude our result and give recommendation based on it
-* Process Summary
-* Business Insight
-* Recommendation
+* Process Summary : 
+ * ![score](score.png)
+* Business Insight :
+  * Our Data customer who use our loan product show their age between 20 and 30 and annual income between 50000 and 70000, and their employment length is low (usually their financial still not stable).
+  * The average percent income from interest is 0.17%
+  * For full recommendation, please check main file
+* Recommendation : 
+  * Business Development and Marketing team can focus to customer with age >20 and <30 years and annual income >50000 and <70000 to boost the growth beside they will repay or not.
+  * Because of the average percent loan income from interest, we can promote the loan length which loan rate is 0.17%
+  * For full recommendation, please check main file
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
