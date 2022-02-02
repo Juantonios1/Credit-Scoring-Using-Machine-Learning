@@ -1,7 +1,7 @@
 # Loan-Repayment-Analysis
 To know which borrower will repay or not so the company can prevent the loss because of the borrower not repay and keep the borrower who can repay still can lend the money.
 
-![Churn](churn.jpeg)
+![Loan](Loan.jpeg)
 
 For full process, please visit my portofolio on <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.  
 
