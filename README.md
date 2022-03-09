@@ -23,7 +23,9 @@ For full process, please visit my portofolio on <a href="https://github.com/Juan
     <li><a href="#model-selection">Model Selection</a></li>
     <li><a href="#explainable-and-interpretable-machine-learning">Explainable and Interpretable Machine Learning</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#final-model">Final Model</a></li>
     <li><a href="#contributors">Contributors</a></li>
+    
   </ol>
 </details>
 
@@ -46,18 +48,18 @@ Determine the suitable metric to rate the performance from the model.<br>
 
 | Feature      	| Description                                                                                                                                                                                                               	|
 |--------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| person_age         	| Age                                                                                                                                                                                                           	|
-| person_income      	| Annual Income                                                                                                                                                                                 	|
-| personhomeownership    	| Home ownership                                                                                                                                                                               	|
-| personemplength          	| Employment length (in years)|
-| loan_intent        	| Loan intent                     	|
-| loan_grade       	| Loan grade                                             	|
-| loan_amnt   	| Loan amount	|
-| loan_int_rate        	| Interest rate                      	|
-| loan_status         	| Loan status (0 is non default 1 is default)             	|
-|loanpercentincome   	| Percent income	|
-|cbpersondefaultonfile         	| Historical default                                	|
-|cbpresoncredhistlength         	| Credit history length                            |
+| person_age         	| Customer Age                                                                                                                                                                                                          	|
+| person_income      	| Annual Customer Income                                                                                                                                                                                 	|
+| personhomeownership    	| Customer Home Ownership Status                                                                                                                                                                                	|
+| personemplength          	|Customer Employment Length (in years)|
+| loan_intent        	| Customer Loan Intent                     	|
+| loan_grade       	| Customer Loan Grade                                             	|
+| loan_amnt   	| Customer Loan Amount	|
+| loan_int_rate        	| Interest Rate                      	|
+| loan_status         	| Loan Status (0 is non default 1 is default)             	|
+|loanpercentincome   	| Percent Income	|
+|cbpersondefaultonfile         	| Historical Default                                	|
+|cbpresoncredhistlength         	| Credit History Length                            |
 ## Exploratory Data Analysis
 At this stage, a brief analysis of the data will be carried out, as follows:
 * Distribution Data Numerical
@@ -102,7 +104,7 @@ At this stage there will be an explanation in the decision making of the machine
 ## Conclusion 
 We conclude our result and give recommendation based on it
 * Process Summary : 
- * ![score](Image/score.png)
+<br>![score](Image/score.png)
 * Business Insight :
   * Our Data customer who use our loan product show their age between 20 and 30 and annual income between 50000 and 70000, and their employment length is low (usually their financial still not stable).
   * The average percent income from interest is 0.17%
