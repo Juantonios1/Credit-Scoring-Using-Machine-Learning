@@ -1,9 +1,9 @@
 # Loan-Repayment-Analysis
-To know which borrower will repay or not so the company can prevent the loss because of the borrower not repay and keep the borrower who can repay still can lend the money.
+From this project, i will explore which borrower will repay or not so the company can prevent the loss because of the borrower not repay and keep the borrower who can repay still can lend the money.
 
-![Loan](Loan.jpg)
+![Loan](Image/Loan.jpg)
 
-For full process, please visit my portofolio on <a href="link nya">Churn Analysis</a>.  
+For full process, please visit my portofolio on <a href="https://github.com/Juantonios1/Loan-Repayment-Analysis/blob/main/Loan%20Repayment%20Prediction%20Analysis%20v1.ipynb">Loan Repayment Analysis</a>.  
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -38,7 +38,9 @@ The purpose of credit risk analysis is to determine the creditworthiness of the 
 To know which borrower will repay or not so the company can prevent the loss because of the borrower not repay and keep the borrower who can repay still can lend the money.
 
 **Metric Evaluation :**    
-Determine the suitable metric to rate the performance from the model
+Determine the suitable metric to rate the performance from the model.<br>
+![Matrix](Image/Matrix.png)
+
 
 ## Data Understanding
 
@@ -94,13 +96,13 @@ At this stage will be done making and optimizing the machine learning model, as 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP <br>
-![shap](shap.png)
+![shap](Image/SHAP.png)
 <br>`loan_percent_income`,`person_income`,`loan_grade`,`loan_int_rate`,`loan_amount`,`person_emp_length` are most influence factor to customer repay or not.
 
 ## Conclusion 
 We conclude our result and give recommendation based on it
 * Process Summary : 
- * ![score](score.png)
+ * ![score](Image/score.png)
 * Business Insight :
   * Our Data customer who use our loan product show their age between 20 and 30 and annual income between 50000 and 70000, and their employment length is low (usually their financial still not stable).
   * The average percent income from interest is 0.17%
@@ -109,6 +111,9 @@ We conclude our result and give recommendation based on it
   * Business Development and Marketing team can focus to customer with age >20 and <30 years and annual income >50000 and <70000 to boost the growth beside they will repay or not.
   * Because of the average percent loan income from interest, we can promote the loan length which loan rate is 0.17%
   * For full recommendation, please check main file
+
+## Final Model
+For deployment, model must save in pickle and my final model is  <a href="https://github.com/Juantonios1/Loan-Repayment-Analysis/blob/main/dt%20cs.pickle">Loan Repayment Model</a>
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
