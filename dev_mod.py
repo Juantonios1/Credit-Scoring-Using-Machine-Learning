@@ -28,11 +28,10 @@ warnings.filterwarnings("ignore")
 # Model Function
 def clas_bm(x_train, y_train, metric, cv_n=5):
     """
-    input:
-        x_train: df dependent variable.
-        y_train: df independent variable.
-        metric: 'acc', 'pre', 'rcl', 'mcc', 'f1', 'roc_auc'.
-        cv_n: number of cross validation fold.
+    x_train: df dependent variable.
+    y_train: df independent variable.
+    metric: 'acc', 'pre', 'rcl', 'mcc', 'f1', 'roc_auc'.
+    cv_n: number of cross validation fold.
     """
     # Model Statement
     logreg = LogisticRegression(random_state=2023)
@@ -193,11 +192,10 @@ from sklearn.model_selection import cross_validate
 # Model Function
 def reg_bm(x_train, y_train, metric, cv_n=5):
     """
-    input:
-        x_train: df dependent variable.
-        y_train: df independent variable.
-        metric: 'r2', 'mae', 'rmse', 'mse'.
-        cv_n: number of cross validation fold.
+    x_train: df dependent variable.
+    y_train: df independent variable.
+    metric: 'r2', 'mae', 'rmse', 'mse'.
+    cv_n: number of cross validation fold.
     """
 
     # Models
