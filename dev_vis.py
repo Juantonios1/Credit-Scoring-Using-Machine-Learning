@@ -128,6 +128,28 @@ def box(data, features, hue=None):
     plt.show()
 
 
+# IQR, Uppper, & Lower
+def out(data, features):
+    """
+    data: df dataset.
+    features: categorical features list.
+    """
+    for feature in features:
+        Q1 = np.percentile(data[feature], 25)
+        Q3 = np.percentile(data[feature], 75)
+        IQR = Q3 - Q1
+        uq = Q3 + 1.5 * IQR
+        lq = Q1 - 1.5 * IQR
+
+        print(
+            f"""
+        {feature}
+        IQR : {IQR}
+        Upper IQR : {uq}
+        Lower IQR : {lq}"""
+        )
+
+
 ##CORRELATION
 
 
